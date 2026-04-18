@@ -349,7 +349,8 @@
     <p>
       Nhập địa chỉ URL của máy chủ Flask đang chạy trên máy tính của bạn.<br>
       Ví dụ: <code>http://192.168.1.10:5000</code><br>
-      (Tìm địa chỉ IP trong phần thông tin khi mở web app trên máy)
+      (Tìm địa chỉ IP trong phần thông tin khi mở web app trên máy)<br>
+      <strong>Lưu ý:</strong> Nếu mở từ Google Sites (HTTPS), bạn phải nhập URL <strong>HTTPS</strong> (ví dụ ngrok), không dùng HTTP nội bộ.
     </p>
     <label for="serverUrlInput">URL máy chủ</label>
     <input id="serverUrlInput" type="url" placeholder="http://192.168.1.10:5000" />
@@ -423,6 +424,24 @@
     return (localStorage.getItem(DATA_FILE_LS_KEY) || "").trim();
   }
 
+  function fetchErrorMessage(baseErr) {
+    const serverUrl = getServerUrl();
+    const pageProtocol = window.location.protocol;
+    const serverProtocol = (() => {
+      try {
+        return new URL(serverUrl).protocol;
+      } catch (_) {
+        return "";
+      }
+    })();
+
+    if (pageProtocol === "https:" && serverProtocol === "http:") {
+      return "Lỗi: Failed to fetch (Google Sites dùng HTTPS nên không gọi được server HTTP). Hãy dùng URL HTTPS (ví dụ ngrok) trong ⚙ Cài đặt.";
+    }
+
+    return `Lỗi kết nối tới server: ${baseErr?.message || "Failed to fetch"}`;
+  }
+
   // ─── STATE ────────────────────────────────────────────────────
   const state = {
     tournament: "",
@@ -447,20 +466,28 @@
 
   // ─── API ──────────────────────────────────────────────────────
   async function apiGet(path) {
-    const res = await fetch(getServerUrl() + path, { mode: "cors" });
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    return res.json();
+    try {
+      const res = await fetch(getServerUrl() + path, { mode: "cors" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    } catch (err) {
+      throw new Error(fetchErrorMessage(err));
+    }
   }
 
   async function apiPost(path, body) {
-    const res = await fetch(getServerUrl() + path, {
-      method: "POST",
-      mode: "cors",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
-    });
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    return res.json();
+    try {
+      const res = await fetch(getServerUrl() + path, {
+        method: "POST",
+        mode: "cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    } catch (err) {
+      throw new Error(fetchErrorMessage(err));
+    }
   }
 
   async function loadDataFileOptions() {
