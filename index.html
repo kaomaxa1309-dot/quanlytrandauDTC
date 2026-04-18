@@ -787,11 +787,13 @@
   el("reloadBtn").addEventListener("click", refresh);
 
   el("dataFileBtn").addEventListener("click", async () => {
+    el("dataFileModal").classList.add("open");
+    el("dataFileInput").value = getSavedDataFilePath() || state.dataFile || "";
     try {
       await loadDataFileOptions();
-      el("dataFileModal").classList.add("open");
     } catch (err) {
-      setSyncBadge("Lỗi: " + err.message, "err");
+      // Keep the modal open for manual input even if API is unavailable.
+      setSyncBadge("Không tải được danh sách file, bạn vẫn có thể tự nhập đường dẫn", "warn");
     }
   });
 
