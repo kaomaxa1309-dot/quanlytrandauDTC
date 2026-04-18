@@ -262,13 +262,6 @@
       font-size: 13px; margin-bottom: 16px;
     }
     .modal input:focus { outline: none; border-color: var(--primary); }
-    .modal select {
-      width: 100%; padding: 8px 10px;
-      border: 1px solid var(--border); border-radius: var(--radius-sm);
-      font-size: 13px; margin-bottom: 16px;
-      background: #fff;
-    }
-    .modal select:focus { outline: none; border-color: var(--primary); }
     .modal-actions { display: flex; gap: 10px; justify-content: flex-end; }
     .btn-primary {
       padding: 8px 20px; background: var(--primary); color: #fff;
@@ -369,20 +362,16 @@
 
 <div class="modal-overlay" id="dataFileModal">
   <div class="modal">
-    <h2>📁 Chọn file dữ liệu</h2>
+    <h2>📁 File dữ liệu</h2>
     <p>
-      Chọn file JSON trong OneDrive đã được server tìm thấy, hoặc dán đường dẫn đầy đủ tới file dữ liệu.<br>
-      Sau khi lưu, mọi thay đổi kết quả sẽ ghi trực tiếp vào file đó.
+      Nhập trực tiếp đường dẫn file JSON trong OneDrive rồi bấm lưu.<br>
+      Đường dẫn này sẽ được nhớ lại cho lần dùng sau trên cùng trình duyệt.
     </p>
-    <label for="dataFileSelect">File tìm thấy trong OneDrive</label>
-    <select id="dataFileSelect">
-      <option value="">-- Chọn file --</option>
-    </select>
     <label for="dataFileInput">Đường dẫn file JSON</label>
     <input id="dataFileInput" type="text" placeholder="C:\\Users\\...\\OneDrive\\...\\badminton_data.json" />
     <div class="modal-actions">
       <button class="btn-secondary" id="dataFileCancel">Đóng</button>
-      <button class="btn-primary" id="dataFileSave">Lưu file dữ liệu</button>
+      <button class="btn-primary" id="dataFileSave">Lưu đường dẫn</button>
     </div>
   </div>
 </div>
@@ -424,9 +413,14 @@
   // Đây là địa chỉ mặc định. Người dùng có thể thay đổi qua nút ⚙
   const DEFAULT_SERVER = "http://localhost:5000";
   const LS_KEY = "badminton_server_url";
+  const DATA_FILE_LS_KEY = "badminton_data_file_path";
 
   function getServerUrl() {
     return (localStorage.getItem(LS_KEY) || DEFAULT_SERVER).replace(/\/$/, "");
+  }
+
+  function getSavedDataFilePath() {
+    return (localStorage.getItem(DATA_FILE_LS_KEY) || "").trim();
   }
 
   // ─── STATE ────────────────────────────────────────────────────
@@ -472,22 +466,17 @@
   async function loadDataFileOptions() {
     const payload = await apiGet("/api/data-file/options");
     state.dataFile = payload.current || "";
+    el("dataFileInput").value = getSavedDataFilePath() || state.dataFile;
+  }
 
-    const select = el("dataFileSelect");
-    const input = el("dataFileInput");
-    select.innerHTML = '<option value="">-- Chọn file --</option>';
-
-    (payload.candidates || []).forEach(path => {
-      const opt = document.createElement("option");
-      opt.value = path;
-      opt.textContent = path;
-      select.appendChild(opt);
-    });
-
-    input.value = state.dataFile;
-    if (state.dataFile) {
-      select.value = (payload.candidates || []).includes(state.dataFile) ? state.dataFile : "";
+  async function applySavedDataFilePath() {
+    const savedPath = getSavedDataFilePath();
+    if (!savedPath || savedPath === state.dataFile) {
+      return;
     }
+
+    await apiPost("/api/data-file/set", { path: savedPath });
+    state.dataFile = savedPath;
   }
 
   // ─── RENDER HELPERS ───────────────────────────────────────────
@@ -768,6 +757,8 @@
     try {
       setSyncBadge("Đang tải...", "warn");
       await loadMeta();
+      await applySavedDataFilePath();
+      await loadMeta();
       state.canWrite = true;
       await loadState();
       await loadDataFileOptions();
@@ -808,13 +799,6 @@
     el("dataFileModal").classList.remove("open");
   });
 
-  el("dataFileSelect").addEventListener("change", () => {
-    const value = el("dataFileSelect").value;
-    if (value) {
-      el("dataFileInput").value = value;
-    }
-  });
-
   el("dataFileSave").addEventListener("click", async () => {
     const path = el("dataFileInput").value.trim();
     if (!path) {
@@ -822,10 +806,11 @@
       return;
     }
     try {
+      localStorage.setItem(DATA_FILE_LS_KEY, path);
       await apiPost("/api/data-file/set", { path });
       el("dataFileModal").classList.remove("open");
       await refresh();
-      setSyncBadge("Đã đổi file dữ liệu", "ok");
+      setSyncBadge("Đã lưu đường dẫn file", "ok");
     } catch (err) {
       setSyncBadge("Lỗi: " + err.message, "err");
     }
