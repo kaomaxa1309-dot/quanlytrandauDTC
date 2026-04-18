@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
@@ -234,6 +234,14 @@
     }
     .cfg-btn:hover { background: rgba(255,255,255,.25); }
 
+    .file-btn {
+      padding: 5px 12px; border-radius: var(--radius-sm);
+      border: 1px solid rgba(255,255,255,.4);
+      background: rgba(255,255,255,.15); color: #fff;
+      font-size: 12px; cursor: pointer;
+    }
+    .file-btn:hover { background: rgba(255,255,255,.25); }
+
     .modal-overlay {
       display: none; position: fixed; inset: 0;
       background: rgba(0,0,0,.45); z-index: 200;
@@ -254,6 +262,13 @@
       font-size: 13px; margin-bottom: 16px;
     }
     .modal input:focus { outline: none; border-color: var(--primary); }
+    .modal select {
+      width: 100%; padding: 8px 10px;
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      font-size: 13px; margin-bottom: 16px;
+      background: #fff;
+    }
+    .modal select:focus { outline: none; border-color: var(--primary); }
     .modal-actions { display: flex; gap: 10px; justify-content: flex-end; }
     .btn-primary {
       padding: 8px 20px; background: var(--primary); color: #fff;
@@ -295,6 +310,7 @@
       <span class="sync-badge" id="syncBadge">Đang kết nối...</span>
     </div>
     <div class="header-controls">
+      <button class="file-btn" id="dataFileBtn">📁 File dữ liệu</button>
       <div class="field">
         <label for="tournamentSelect">Giải</label>
         <select id="tournamentSelect"></select>
@@ -351,6 +367,26 @@
   </div>
 </div>
 
+<div class="modal-overlay" id="dataFileModal">
+  <div class="modal">
+    <h2>📁 Chọn file dữ liệu</h2>
+    <p>
+      Chọn file JSON trong OneDrive đã được server tìm thấy, hoặc dán đường dẫn đầy đủ tới file dữ liệu.<br>
+      Sau khi lưu, mọi thay đổi kết quả sẽ ghi trực tiếp vào file đó.
+    </p>
+    <label for="dataFileSelect">File tìm thấy trong OneDrive</label>
+    <select id="dataFileSelect">
+      <option value="">-- Chọn file --</option>
+    </select>
+    <label for="dataFileInput">Đường dẫn file JSON</label>
+    <input id="dataFileInput" type="text" placeholder="C:\\Users\\...\\OneDrive\\...\\badminton_data.json" />
+    <div class="modal-actions">
+      <button class="btn-secondary" id="dataFileCancel">Đóng</button>
+      <button class="btn-primary" id="dataFileSave">Lưu file dữ liệu</button>
+    </div>
+  </div>
+</div>
+
 <template id="tplMatchRow">
   <div class="match-card">
     <div class="match-meta">
@@ -402,6 +438,7 @@
     standings: {},
     matches: [],
     canWrite: false,   // true nếu kết nối thành công với server
+    dataFile: "",
   };
 
   const autoSaveTimers = new Map();
@@ -430,6 +467,27 @@
     });
     if (!res.ok) throw new Error("HTTP " + res.status);
     return res.json();
+  }
+
+  async function loadDataFileOptions() {
+    const payload = await apiGet("/api/data-file/options");
+    state.dataFile = payload.current || "";
+
+    const select = el("dataFileSelect");
+    const input = el("dataFileInput");
+    select.innerHTML = '<option value="">-- Chọn file --</option>';
+
+    (payload.candidates || []).forEach(path => {
+      const opt = document.createElement("option");
+      opt.value = path;
+      opt.textContent = path;
+      select.appendChild(opt);
+    });
+
+    input.value = state.dataFile;
+    if (state.dataFile) {
+      select.value = (payload.candidates || []).includes(state.dataFile) ? state.dataFile : "";
+    }
   }
 
   // ─── RENDER HELPERS ───────────────────────────────────────────
@@ -673,6 +731,7 @@
   // ─── LOAD DATA ────────────────────────────────────────────────
   async function loadMeta() {
     const meta = await apiGet("/api/meta");
+    state.dataFile = meta.data_file || "";
     const cur = el("tournamentSelect").value;
     el("tournamentSelect").innerHTML = "";
     meta.tournaments.forEach(name => {
@@ -711,6 +770,7 @@
       await loadMeta();
       state.canWrite = true;
       await loadState();
+      await loadDataFileOptions();
       showOfflineBanner(false);
     } catch (err) {
       state.canWrite = false;
@@ -734,6 +794,42 @@
   });
 
   el("reloadBtn").addEventListener("click", refresh);
+
+  el("dataFileBtn").addEventListener("click", async () => {
+    try {
+      await loadDataFileOptions();
+      el("dataFileModal").classList.add("open");
+    } catch (err) {
+      setSyncBadge("Lỗi: " + err.message, "err");
+    }
+  });
+
+  el("dataFileCancel").addEventListener("click", () => {
+    el("dataFileModal").classList.remove("open");
+  });
+
+  el("dataFileSelect").addEventListener("change", () => {
+    const value = el("dataFileSelect").value;
+    if (value) {
+      el("dataFileInput").value = value;
+    }
+  });
+
+  el("dataFileSave").addEventListener("click", async () => {
+    const path = el("dataFileInput").value.trim();
+    if (!path) {
+      setSyncBadge("Bạn chưa nhập đường dẫn file", "err");
+      return;
+    }
+    try {
+      await apiPost("/api/data-file/set", { path });
+      el("dataFileModal").classList.remove("open");
+      await refresh();
+      setSyncBadge("Đã đổi file dữ liệu", "ok");
+    } catch (err) {
+      setSyncBadge("Lỗi: " + err.message, "err");
+    }
+  });
 
   el("tournamentSelect").addEventListener("change", async () => {
     state.tournament = el("tournamentSelect").value;
@@ -766,6 +862,9 @@
   });
   el("cfgModal").addEventListener("click", e => {
     if (e.target === el("cfgModal")) el("cfgModal").classList.remove("open");
+  });
+  el("dataFileModal").addEventListener("click", e => {
+    if (e.target === el("dataFileModal")) el("dataFileModal").classList.remove("open");
   });
 
   // Auto-refresh every 20s
