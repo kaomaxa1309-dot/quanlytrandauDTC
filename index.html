@@ -452,6 +452,7 @@
     matches: [],
     canWrite: false,   // true nếu kết nối thành công với server
     dataFile: "",
+    savedPathApplied: false,
   };
 
   const autoSaveTimers = new Map();
@@ -498,12 +499,13 @@
 
   async function applySavedDataFilePath() {
     const savedPath = getSavedDataFilePath();
-    if (!savedPath || savedPath === state.dataFile) {
+    if (!savedPath || savedPath === state.dataFile || state.savedPathApplied) {
       return;
     }
 
     await apiPost("/api/data-file/set", { path: savedPath });
     state.dataFile = savedPath;
+    state.savedPathApplied = true;
   }
 
   // ─── RENDER HELPERS ───────────────────────────────────────────
@@ -784,8 +786,13 @@
     try {
       setSyncBadge("Đang tải...", "warn");
       await loadMeta();
-      await applySavedDataFilePath();
-      await loadMeta();
+      try {
+        await applySavedDataFilePath();
+        await loadMeta();
+      } catch (err) {
+        // Keep running with current server-side data file if applying saved path fails.
+        setSyncBadge("Không áp được đường dẫn đã lưu, đang dùng file hiện tại của server", "warn");
+      }
       state.canWrite = true;
       await loadState();
       await loadDataFileOptions();
@@ -835,11 +842,14 @@
       return;
     }
     try {
-      localStorage.setItem(DATA_FILE_LS_KEY, path);
-      await apiPost("/api/data-file/set", { path });
+      setSyncBadge("Đang đổi file dữ liệu...", "warn");
+      const result = await apiPost("/api/data-file/set", { path });
+      state.dataFile = result.data_file || path;
+      state.savedPathApplied = true;
+      localStorage.setItem(DATA_FILE_LS_KEY, state.dataFile);
       el("dataFileModal").classList.remove("open");
       await refresh();
-      setSyncBadge("Đã lưu đường dẫn file", "ok");
+      setSyncBadge("Đã lưu đường dẫn và tải dữ liệu từ file mới", "ok");
     } catch (err) {
       setSyncBadge("Lỗi: " + err.message, "err");
     }
