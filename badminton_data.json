@@ -1,0 +1,2091 @@
+{
+  "tournaments": {
+    "Học sinh tháng 4": {
+      "players": [
+        {
+          "name": "Đào Minh Quân (B5)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Đinh Thanh Bình (A18)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Đỗ Gia Bảo (A10)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Đỗ Lê Bình (B15)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Hà Gia Huy (B9)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Hà Hữu Đức Hiếu (A8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Lê Hoàng Sang (B12)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Lê Nguyễn Phúc Khang (A7)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Thái Phương (A7)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Quang Huy (B23)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Tiến Lộc (A8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Trường Phương Duy (B15)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Văn Sơn (B15)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Phạm Hoàng Kiên (A15)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Phạm Minh Mẫn (A13)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Phạm Nguyễn Đức Thịnh (A3)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Trần Anh Đức (A20)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Trần Minh Hiếu (A2)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Trần Thiên Phúc (B4)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Trương Đỗ Doãn Văn (A18)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Kim Ngọc Ánh (A19)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Vũ Đăng Khoa (A19)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn TRần Yến Nhi (B19)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Nguyễn Phạm Khánh Ngọc (B20)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Ngô Thúy HIền (B20)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Lê ĐÌnh Thắng (B20)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Văn ĐỨc Dũng (A19)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Bùi Văn Phú (B12)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Phạm ĐỖ Gia Minh (B11)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Vũ Đăng Khoa (A19)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Văn Danh (B16)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Hoàng Thái Sơn (B16)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Đỗ Vũ Minh Kiệt (B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Dương Hà Linh (B8)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Đỗ Đại Phát (B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Hữu Bảo Đan (B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Lê Thành Nam (B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Lê ĐỨc Anh (B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "TRần Đức Tài (B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Võ Huỳnh Đăng (B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Công Minh (B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Lê Gia Phát (B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Bùi Ngọc Minh Châu (A15)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Trần Hồng Tiên (B8)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "ĐInh Minh Triết (A10)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Phạm Lê Tấn Dũng (B15)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn TRần GIa KHánh (B5)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Mai ĐỨc Anh (B5)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Hoàng Thái Nam (B5)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Ngô Minh Trung (B5)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Cảnh Bảo An (A3)",
+          "gender": "Nam"
+        },
+        {
+          "name": "TRương Thị Yến Nhi (A2)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Đặng Thị Bích Thủy (A2)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Bùi Trọng Hiếu (A13)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Trần Thị QUyên (A13)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Chu Ngọc Phương Quỳnh (A13)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Nguyễn Minh NHật (A13)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Võ Ngọc Ánh Tuyết (A8)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Đồng Tiến Phát (A8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "TRịnh khả Hân (A8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Dương Thanh Ngọc (A8)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Nguyễn Hoàng Nhật Quân (A8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Hồ Phúc Sang (B20)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Phạm Bích TRâm (B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Đoàn Vĩnh Khang (A8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Phan Gia Bảo (A18)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Đỗ Thanh Loan (A18)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Vũ Thị Minh Trang (B11)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Hồ Thị Oanh (A10)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Đặng Đỗ Thùy Linh (A10)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Vũ Ngọc Yến Nhi (A20)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Nguyễn Thị Như Ý (A18)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Nguyễn Hữu Thiện (A8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Đinh Đỗ Hoàng Phúc (B18)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn Bảo Phú (B14)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Vũ TRần Khánh Linh (A18)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "TRịnh Phạm KHánh Linh(B8)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Võ Thị Thảo UYên (A10)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Nguyễn ĐỨc Hoàng (B9)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Đỗ Như Đạt (A10)",
+          "gender": "Nam"
+        },
+        {
+          "name": "NGuyễn Bảo Phú (B14)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Mai Văn Hoàn (B14)",
+          "gender": "Nam"
+        },
+        {
+          "name": "DƯơng THị Thanh Hiền (B14)",
+          "gender": "Nữ"
+        },
+        {
+          "name": "NGuyễn Ngọc Thái (B14)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Bùi Tá Hiếu (B14)",
+          "gender": "Nam"
+        },
+        {
+          "name": "Lê Thanh Nam (B20)",
+          "gender": "Nam"
+        }
+      ],
+      "division_data": {
+        "Nam": {
+          "available_players": [],
+          "matches": [
+            {
+              "p1": "Bùi Trọng Hiếu (A13)",
+              "p2": "Trần Minh Hiếu (A2)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Trần Minh Hiếu (A2)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Bùi Văn Phú (B12)",
+              "p2": "Nguyễn Quang Huy (B23)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Quang Huy (B23)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Hoàng Nhật Quân (A8)",
+              "p2": "Bùi Tá Hiếu (B14)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Bùi Tá Hiếu (B14)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Hữu Bảo Đan (B8)",
+              "p2": "Mai Văn Hoàn (B14)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Hữu Bảo Đan (B8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đoàn Vĩnh Khang (A8)",
+              "p2": "Nguyễn Hữu Thiện (A8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Hữu Thiện (A8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Tiến Lộc (A8)",
+              "p2": "Lê ĐÌnh Thắng (B20)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Tiến Lộc (A8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đỗ Đại Phát (B8)",
+              "p2": "Nguyễn TRần GIa KHánh (B5)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Đỗ Đại Phát (B8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đỗ Như Đạt (A10)",
+              "p2": "Đồng Tiến Phát (A8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Đồng Tiến Phát (A8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Lê Nguyễn Phúc Khang (A7)",
+              "p2": "Nguyễn Lê ĐỨc Anh (B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Lê Nguyễn Phúc Khang (A7)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Thái Phương (A7)",
+              "p2": "Nguyễn Văn Sơn (B15)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Thái Phương (A7)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Lê Thành Nam (B8)",
+              "p2": "TRần Đức Tài (B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Lê Thành Nam (B8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Phạm Minh Mẫn (A13)",
+              "p2": "NGuyễn Bảo Phú (B14)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "NGuyễn Bảo Phú (B14)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Văn Danh (B16)",
+              "p2": "Hà Hữu Đức Hiếu (A8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Văn Danh (B16)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Lê Hoàng Sang (B12)",
+              "p2": "Đỗ Vũ Minh Kiệt (B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Lê Hoàng Sang (B12)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đào Minh Quân (B5)",
+              "p2": "Đỗ Gia Bảo (A10)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Đào Minh Quân (B5)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Vũ Đăng Khoa (A19)",
+              "p2": "Võ Huỳnh Đăng (B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Võ Huỳnh Đăng (B8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Công Minh (B8)",
+              "p2": "Hoàng Thái Sơn (B16)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Hoàng Thái Sơn (B16)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Vũ Đăng Khoa (A19)",
+              "p2": "Phạm Nguyễn Đức Thịnh (A3)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Phạm Nguyễn Đức Thịnh (A3)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Văn ĐỨc Dũng (A19)",
+              "p2": "Nguyễn Lê Gia Phát (B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Văn ĐỨc Dũng (A19)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trần Anh Đức (A20)",
+              "p2": "Hà Gia Huy (B9)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Trần Anh Đức (A20)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trương Đỗ Doãn Văn (A18)",
+              "p2": "ĐInh Minh Triết (A10)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Trương Đỗ Doãn Văn (A18)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trần Thiên Phúc (B4)",
+              "p2": "Phạm Lê Tấn Dũng (B15)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Trần Thiên Phúc (B4)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Mai Đức Anh (B5)",
+              "p2": "Nguyễn ĐỨc Hoàng (B9)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn ĐỨc Hoàng (B9)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Minh NHật (A13)",
+              "p2": "Hồ Phúc Sang (B20)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Hồ Phúc Sang (B20)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Phan Gia Bảo (A18)",
+              "p2": "Nguyễn Trường Phương Duy (B15)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Trường Phương Duy (B15)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đỗ Lê Bình (B15)",
+              "p2": "Đinh Thanh Bình (A18)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Đỗ Lê Bình (B15)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đinh Đỗ Hoàng Phúc (B18)",
+              "p2": "Ngô Minh Trung (B5)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Ngô Minh Trung (B5)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Hoàng Thái Nam (B5)",
+              "p2": "Phạm Hoàng Kiên (A15)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Phạm Hoàng Kiên (A15)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Phạm ĐỖ Gia Minh (B11)",
+              "p2": "NGuyễn Ngọc Thái (B14)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Phạm ĐỖ Gia Minh (B11)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Lê Thanh Nam (B20)",
+              "p2": "Phan Việt Anh(A14)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Phan Việt Anh(A14)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trần Minh Hiếu (A2)",
+              "p2": "Nguyễn Quang Huy (B23)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Nguyễn Quang Huy (B23)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Bùi Tá Hiếu (B14)",
+              "p2": "Nguyễn Hữu Bảo Đan (B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Bùi Tá Hiếu (B14)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Hữu Thiện (A8)",
+              "p2": "Nguyễn Tiến Lộc (A8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Nguyễn Tiến Lộc (A8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đỗ Đại Phát (B8)",
+              "p2": "Đồng Tiến Phát (A8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Đồng Tiến Phát (A8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Lê Nguyễn Phúc Khang (A7)",
+              "p2": "Nguyễn Thái Phương (A7)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Nguyễn Thái Phương (A7)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Lê Thành Nam (B8)",
+              "p2": "NGuyễn Bảo Phú (B14)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "NGuyễn Bảo Phú (B14)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Văn Danh (B16)",
+              "p2": "Lê Hoàng Sang (B12)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Nguyễn Văn Danh (B16)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đào Minh Quân (B5)",
+              "p2": "Võ Huỳnh Đăng (B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Đào Minh Quân (B5)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Hoàng Thái Sơn (B16)",
+              "p2": "Phạm Nguyễn Đức Thịnh (A3)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Phạm Nguyễn Đức Thịnh (A3)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Văn ĐỨc Dũng (A19)",
+              "p2": "Trần Anh Đức (A20)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Trần Anh Đức (A20)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trương Đỗ Doãn Văn (A18)",
+              "p2": "Trần Thiên Phúc (B4)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Trương Đỗ Doãn Văn (A18)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn ĐỨc Hoàng (B9)",
+              "p2": "Hồ Phúc Sang (B20)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Nguyễn ĐỨc Hoàng (B9)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Trường Phương Duy (B15)",
+              "p2": "Đỗ Lê Bình (B15)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Nguyễn Trường Phương Duy (B15)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Ngô Minh Trung (B5)",
+              "p2": "Phạm Hoàng Kiên (A15)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Phạm Hoàng Kiên (A15)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Phạm ĐỖ Gia Minh (B11)",
+              "p2": "Phan Việt Anh(A14)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Phạm ĐỖ Gia Minh (B11)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Thái Phương (A7)",
+              "p2": "Phạm Hoàng Kiên (A15)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "Nguyễn Thái Phương (A7)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trần Anh Đức (A20)",
+              "p2": "Nguyễn ĐỨc Hoàng (B9)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "Nguyễn ĐỨc Hoàng (B9)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Quang Huy (B23)",
+              "p2": "NGuyễn Bảo Phú (B14)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "Nguyễn Quang Huy (B23)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Bùi Tá Hiếu (B14)",
+              "p2": "Đào Minh Quân (B5)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "Đào Minh Quân (B5)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Trường Phương Duy (B15)",
+              "p2": "Nguyễn Tiến Lộc (A8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "Nguyễn Tiến Lộc (A8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Phạm ĐỖ Gia Minh (B11)",
+              "p2": "Phạm Nguyễn Đức Thịnh (A3)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "Phạm ĐỖ Gia Minh (B11)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trương Đỗ Doãn Văn (A18)",
+              "p2": "Nguyễn Văn Danh (B16)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "Trương Đỗ Doãn Văn (A18)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đồng Tiến Phát (A8)",
+              "p2": "MIỄN THI ĐẤU",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "Đồng Tiến Phát (A8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Thái Phương (A7)",
+              "p2": "Nguyễn ĐỨc Hoàng (B9)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 4,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Quang Huy (B23)",
+              "p2": "Đào Minh Quân (B5)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 4,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Tiến Lộc (A8)",
+              "p2": "Phạm ĐỖ Gia Minh (B11)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 4,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trương Đỗ Doãn Văn (A18)",
+              "p2": "Đồng Tiến Phát (A8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 4,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Thái Phương (A7)",
+              "p2": "Nguyễn Quang Huy (B23)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 5,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Phạm ĐỖ Gia Minh (B11)",
+              "p2": "Trương Đỗ Doãn Văn (A18)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 5,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            }
+          ]
+        },
+        "Nữ": {
+          "available_players": [],
+          "matches": [
+            {
+              "p1": "Vũ Thị Minh Trang (B11)",
+              "p2": "Bùi Ngọc Minh Châu (A15)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Vũ Thị Minh Trang (B11)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Ngô Thúy HIền (B20)",
+              "p2": "Dương Thanh Ngọc (A8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Dương Thanh Ngọc (A8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Vũ Ngọc Yến Nhi (A20)",
+              "p2": "Trần Thị QUyên (A13)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Trần Thị QUyên (A13)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn TRần Yến Nhi (B19)",
+              "p2": "Nguyễn Thị Như Ý (A18)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Thị Như Ý (A18)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Võ Ngọc Ánh Tuyết (A8)",
+              "p2": "Đặng Thị Bích Thủy (A2)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Võ Ngọc Ánh Tuyết (A8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trần Hồng Tiên (B8)",
+              "p2": "Chu Ngọc Phương Quỳnh (A13)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Trần Hồng Tiên (B8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Vũ TRần Khánh Linh (A18)",
+              "p2": "DƯơng THị Thanh Hiền (B14)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "DƯơng THị Thanh Hiền (B14)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đặng Đỗ Thùy Linh (A10)",
+              "p2": "TRương Thị Yến Nhi (A2)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Đặng Đỗ Thùy Linh (A10)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Hồ Thị Oanh (A10)",
+              "p2": "MIỄN THI ĐẤU",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Hồ Thị Oanh (A10)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đỗ Thanh Loan (A18)",
+              "p2": "Dương Hà Linh (B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Đỗ Thanh Loan (A18)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Kim Ngọc Ánh (A19)",
+              "p2": "Nguyễn Phạm Khánh Ngọc (B20)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Kim Ngọc Ánh (A19)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trịnh Phạm Khánh Linh(B8)",
+              "p2": "Võ Thị Thảo Uyên (A10)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Trịnh Phạm Khánh Linh(B8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Phạm Bích Trâm (B8)",
+              "p2": "Trịnh khả Hân (A8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "Nguyễn Phạm Bích Trâm (B8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Vũ Thị Minh Trang (B11)",
+              "p2": "Dương Thanh Ngọc (A8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Vũ Thị Minh Trang (B11)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trần Thị QUyên (A13)",
+              "p2": "Nguyễn Thị Như Ý (A18)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Trần Thị QUyên (A13)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Võ Ngọc Ánh Tuyết (A8)",
+              "p2": "Trần Hồng Tiên (B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Võ Ngọc Ánh Tuyết (A8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "DƯơng THị Thanh Hiền (B14)",
+              "p2": "Đặng Đỗ Thùy Linh (A10)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "DƯơng THị Thanh Hiền (B14)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Hồ Thị Oanh (A10)",
+              "p2": "Đỗ Thanh Loan (A18)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Đỗ Thanh Loan (A18)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Kim Ngọc Ánh (A19)",
+              "p2": "Trịnh Phạm Khánh Linh(B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Nguyễn Kim Ngọc Ánh (A19)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Phạm Bích Trâm (B8)",
+              "p2": "MIỄN THI ĐẤU",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 2,
+              "winner": "Nguyễn Phạm Bích Trâm (B8)",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Võ Ngọc Ánh Tuyết (A8)",
+              "p2": "Nguyễn Kim Ngọc Ánh (A19)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Nguyễn Phạm Bích Trâm (B8)",
+              "p2": "DƯơng THị Thanh Hiền (B14)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đỗ Thanh Loan (A18)",
+              "p2": "Vũ Thị Minh Trang (B11)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trần Thị QUyên (A13)",
+              "p2": "Trinh Phạm Khánh Linh (B8)",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 3,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            }
+          ]
+        }
+      },
+      "active_division": "Nam"
+    },
+    "Giáo viên tháng 4": {
+      "players": [
+        {
+          "name": "Vũ Đình Hùng",
+          "gender": "Nam"
+        },
+        {
+          "name": "Phạm Quý Sơn",
+          "gender": "Nam"
+        },
+        {
+          "name": "Võ Thị Bích Châu",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Lâm Nguyễn Quỳnh Như",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Trần Công Sĩ",
+          "gender": "Nam"
+        },
+        {
+          "name": "Trần Ngọc Linh",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Bùi Thị Ngọc Ánh",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Đỗ Thị Hà",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Phan Thị Hiên",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Phan Thị Hoài Khang",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Vũ Xuân Nam",
+          "gender": "Nam"
+        },
+        {
+          "name": "Hồ Thị Phương Anh",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Trần Ngọc Phương Thảo",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Phạm Thị Kiều Khanh",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Nguyễn Hữu Tân",
+          "gender": "Nam"
+        },
+        {
+          "name": "Lê Huy Hướng",
+          "gender": "Nam"
+        },
+        {
+          "name": "Lê Trung Hiếu",
+          "gender": "Nam"
+        },
+        {
+          "name": "Hồ Thị Thuý",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Vũ Hoàng Anh Thi",
+          "gender": "Nam"
+        },
+        {
+          "name": "Lê Minh Trí",
+          "gender": "Nam"
+        },
+        {
+          "name": "Trịnh Thị Thảo",
+          "gender": "Nữ"
+        },
+        {
+          "name": "Tạ Thị Thu Thảo",
+          "gender": "Nữ"
+        }
+      ],
+      "division_data": {
+        "Nam": {
+          "available_players": [],
+          "matches": [
+            {
+              "p1": "Vũ Đình Hùng",
+              "p2": "Vũ Hoàng Anh Thi",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Lê Trung Hiếu",
+              "p2": "MIỄN THI ĐẤU",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Vũ Xuân Nam",
+              "p2": "Nguyễn Hữu Tân",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Lê Huy Hướng",
+              "p2": "Trần Công Sĩ",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Phạm Quý Sơn",
+              "p2": "Lê Minh Trí",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            }
+          ]
+        },
+        "Nữ": {
+          "available_players": [],
+          "matches": [
+            {
+              "p1": "Trịnh Thị Thảo",
+              "p2": "Phan Thị Hoài Khang",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "MIỄN THI ĐẤU",
+              "p2": "Phạm Thị Kiều Khanh",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Bùi Thị Ngọc Ánh",
+              "p2": "Trần Ngọc Phương Thảo",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Đỗ Thị Hà",
+              "p2": "Võ Thị Bích Châu",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Trần Ngọc Linh",
+              "p2": "Lâm Nguyễn Quỳnh Như",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Hồ Thị Phương Anh",
+              "p2": "Hồ Thị Thuý",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            },
+            {
+              "p1": "Phan Thị Hiên",
+              "p2": "Tạ Thị Thu Thảo",
+              "group": "",
+              "period": "",
+              "match_date": "",
+              "start_time": "",
+              "round": 1,
+              "winner": "",
+              "match_name": "",
+              "score1": 0,
+              "score2": 0,
+              "yellow1": 0,
+              "red1": 0,
+              "yellow2": 0,
+              "red2": 0
+            }
+          ]
+        }
+      },
+      "active_division": "Nữ"
+    }
+  },
+  "active_tournament": "Học sinh tháng 4",
+  "gear_position": {
+    "x": 1344,
+    "y": 0
+  },
+  "window_geometries": {}
+}
